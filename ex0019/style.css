@@ -1,0 +1,25 @@
+@charset "UTF-8";
+h1{
+   background-color: beige;
+   height: auto;
+   width: 400px;
+
+   border: 16px groove darkred;
+   
+   text-align: center;
+
+   padding: 10px 20px;
+
+   margin: auto;
+}
+a{
+    background-color: darkslategray;
+    height: auto;
+    width: auto;
+    
+    border: 15px solid darkmagenta;
+
+    padding: 05px 10px;
+
+    margin: auto;
+}

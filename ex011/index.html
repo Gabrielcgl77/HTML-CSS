@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com imagens</title>
+</head>
+<body> v                        ..,,.,
+        v                      
+    <h1>imagem dinâmica</h1>
+    <p>vamos testa essas imagens em algun dispositivos</p>
+    
+
+    <picture>
+        <source media="(min-width: 750px)" srcset="imagens/imgG.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imgP.png" type="image/png">
+        
+        <img src="imagens/imgP.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1> 
+    <!--MP3 WAV OGG-->
+    <!--Aquirvos Wav são grandes demais--> ,8/
+    <p>Vamos aprender a reproduzir audios co HTML5.</p>
+    <audio preload="metadata" autoplay controls >
+        <source src="midias/Lovely.mp3" type="audio/mpeg">
+        <source src="midias/Lovely.wav" type="audio/wav">
+        <source src="midias/Lovely.ogg" type="audio/ogg">
+    </audio>
+    
+</body>
+</html>
