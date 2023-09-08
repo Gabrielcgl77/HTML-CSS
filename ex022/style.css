@@ -18,7 +18,7 @@ main >h1{
 }
 footer {
     padding: 5px;
-    margin: 0px;
+    margin: -10px;
     text-align: center;
     background-color: white;
 }
