@@ -10,6 +10,7 @@ body{
 main{   
     background-color: white;
     margin: auto;
+    padding: 500px;
 }
 main >h1{
     color: white;
