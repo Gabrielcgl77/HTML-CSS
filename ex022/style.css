@@ -8,11 +8,11 @@ body{
     background-size: cover;
 }
 main{   
-    background-color: white;
+    background-color: rgb(100, 86, 86);
     margin: 40px;
     padding: 5px;
 }
-main >h1{
+header >h1{
     color: white;
     text-align: center;
 }
