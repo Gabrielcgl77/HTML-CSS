@@ -7,3 +7,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+main{   
+    background-color: white;
+    border-radius: 600px;
+
+}
