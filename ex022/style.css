@@ -9,8 +9,8 @@ body{
 }
 main{   
     background-color: white;
-    margin: auto;
-    padding: 500px;
+    margin: 40px;
+    padding: 5px;
 }
 main >h1{
     color: white;
