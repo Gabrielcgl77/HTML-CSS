@@ -9,7 +9,6 @@ body{
 }
 main{   
     background-color: white;
-    border-radius: 600px;
     margin: auto;
 }
 main >h1{
@@ -20,4 +19,5 @@ footer {
     padding: 5px;
     margin: 15px;
     text-align: center;
+    background-color: white;
 }
