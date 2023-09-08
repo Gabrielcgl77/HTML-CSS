@@ -7,3 +7,17 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+main{   
+    background-color: white;
+    border-radius: 600px;
+    margin: auto;
+}
+main >h1{
+    color: white;
+    text-align: center;
+}
+footer {
+    padding: 5px;
+    margin: 15px;
+    text-align: center;
+}
