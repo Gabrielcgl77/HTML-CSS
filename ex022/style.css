@@ -6,6 +6,11 @@ body{
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: black;
+}
+*{
+    padding: 0px;
+    margin: 0px;
 }
 main{   
     background-color: rgb(100, 86, 86);
@@ -15,12 +20,13 @@ main{
 nav{
     color: black;
     padding: 5px;
+    margin: 0px 3px;
     box-shadow: 0px 7px 7px black;
     
 }
 nav >a{
     color: white;
-    padding: 10px;
+    padding: 5px;
     text-decoration: none;
     font-weight: bolder;
     border-radius: 3px;
