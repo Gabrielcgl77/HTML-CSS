@@ -12,6 +12,21 @@ main{
     margin: 40px;
     padding: 5px;
 }
+nav{
+    color: black;
+    padding: 5px;
+    box-shadow: 0px;
+    
+}
+nav >a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+    border-radius: 3px;
+    transition-duration: .5s;}
+
+    
 header >h1{
     color: white;
     text-align: center;
