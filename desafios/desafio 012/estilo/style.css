@@ -56,7 +56,7 @@ header a, footer a{
 
  }
  section#img02{
-background-image: url('imagens/background002.jpg');
+background-image: url("../imagens/background002.jpg");
 background-size: cover;
 background-position:right center;
 width: 100%;
