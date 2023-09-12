@@ -24,7 +24,8 @@ header{
 header >h1{
     padding-top: 50px;
     font-variant: small-caps;
-    font-family: var(--fonte2);
+    font-family: var(--fonte1);
+    padding: 10vh;
 }
 header >p{
     padding-bottom: 50px;
@@ -36,12 +37,12 @@ header a, footer a{
     font-weight:bolder;
 }
  header a:hover, footer a:hover{
-    text-decoration: underline;
+    text-decoration:solid;
     color: #ff000f;
  }
  section{
-    padding-top: 7vh;
-    padding-bottom: 7vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
     font-family: var(--fonte2);
@@ -81,4 +82,5 @@ background-position:right center;
     color: #fff;
     text-align: center;
     padding: 7px;
+    font-family: var(--fonte1);
  }
