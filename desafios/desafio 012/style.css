@@ -12,6 +12,7 @@
 }
 
 html.body{
+    font-family: var(--fonte2);
     min-height: 100vh;
     background-color: #a9a9a9;
 }
@@ -23,6 +24,7 @@ header{
 header >h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte2);
 }
 header >p{
     padding-bottom: 50px;
@@ -38,14 +40,32 @@ header a, footer a{
     color: #ff000f;
  }
  section{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
     padding-left: 30px;
     line-height: 2em;
+    font-family: var(--fonte2);
+    font-size: 2em;
+ }
+ section#img01{
+    background-image: url('imagens/background001.jpg');
+    background-position:right center;
+    background-size: cover;
+
+ }
+ section#img02{
+background-image: url('imagens/background002.jpg');
+background-size: cover;
+background-position:right center;
+ }
+ section >p{
+    padding: 1.5em;
  }
  section.imagem >p{
-    width: 450px;
-    background-color: #383737;
+    display: inline-block;
+    padding: 4px;
+    background-color: #0000007c;
+    text-shadow: 1px 1px 0px rgb(42, 41, 41);
  }
  section.normal{
     background-color:#fff;
