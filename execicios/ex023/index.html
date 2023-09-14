@@ -7,11 +7,21 @@
     <style>
         table{
             width: 400px;
+            border-collapse: collapse;  
+            height: 300px;
+            margin: auto;
         }
         td{
             border: 1px solid black;
             padding: 8px;
         }
+        tr.dado{
+            background-color: yellow;
+            }
+            tr.linha{
+                background-color: blueviolet;}
+            
+        
        
     </style>
 </head>
@@ -25,20 +35,25 @@
 
     <th> <h2>teste de tabela</h2>
         <table>
-            <tr>
+            <tr class="linha">
                 <td>A1</td>
                 <td>B1</td>
                 <td>C1</td>
             </tr>
-            <tr>
+            <tr class="dado">
                 <td>A2</td>
                 <td>B2</td>
                 <td>C2</td>
             </tr>
-            <tr>
+            <tr class="linha">
                 <td>A3</td>
                 <td>B3</td>
                 <td>C3</td>
+            </tr>
+            <tr class="dado">
+                <td>A4</td>
+                <td>A4</td>
+                <td>A4</td>
             </tr>
         </table>
     </th>
