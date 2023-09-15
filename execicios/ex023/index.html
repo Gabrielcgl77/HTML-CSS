@@ -8,57 +8,65 @@
 body{
 background: #253647;
 }
-        table{
-            width: 400px;
-            border-collapse: collapse;  
-            height: 300px;
-            margin: auto;
-        }
-        td{
-            border: 1px solid black;
-            padding: 8px;
-        }
-        tr.dado{
-            background-color: yellow;
-            }
-            tr.linha{
-                background-color: blueviolet;}
-            
-        
-       
-    </style>
+table{
+width: 400px;
+border-collapse: collapse;  
+height: 300px;
+margin: auto;
+}
+td{
+border: 1px solid black;
+padding: 8px;
+}
+tr.dado{
+background-color: yellow;
+}
+tr.linha{
+    background-color: blueviolet;}
+.numero{
+text-align: right;
+}
+h1,h2{
+text-decoration: underline ;
+text-align: center;
+color: #ffff;
+}
+
+
+
+</style>
 </head>
 <body>
-    <h1>Construindo Minha Primeira Tabela</h1>
-    <!--Hieraquia de tabelas (simples)
-    table = tabela 
-    table row = linha da tabela 
-    table header = cabeçalho
-    table data = dados da tabela -->
+<h1>Construindo Minha Primeira Tabela</h1>
+<!--Hieraquia de tabelas (simples)
+table = tabela 
+table row = linha da tabela 
+table header = cabeçalho
+table data = dados da tabela -->
 
-    <th> <h2>teste de tabela</h2>
-        <table>
-            <tr class="linha">
-                <td>A1</td>
-                <td>B1</td>
-                <td>C1</td>
-            </tr>
-            <tr class="dado">
-                <td>A2</td>
-                <td>B2</td>
-                <td>C2</td>
-            </tr>
-            <tr class="linha">
-                <td>A3</td>
-                <td>B3</td>
-                <td>C3</td>
-            </tr>
-            <tr class="dado">
-                <td>A4</td>
-                <td>A4</td>
-                <td>A4</td>
-            </tr>
-        </table>
-    </th>
+<th> <h2>teste de tabela</h2>
+<table>
+<tr class="linha">
+<td>A1</td>
+<td>B1</td>
+<td class="numero">C1</td>
+</tr>
+<tr class="dado">
+<td>A2</td>
+<td>B2</td>
+<td class="numero">C2</td>
+</tr>
+<tr class="linha">
+<td>A3</td>
+<td>B3</td>
+<td class="numero">C3</td>
+</tr>
+<tr class="dado">
+<td>A4</td>
+<td>B4</td>
+<td class="numero">C4</td>
+</tr>
+</table>
+</th>
 </body>
 </html>
