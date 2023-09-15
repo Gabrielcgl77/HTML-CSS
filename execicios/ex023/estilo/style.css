@@ -3,17 +3,22 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 table {
-    border-collapse: collapse ;  /* Alinhamento dos elementos da tabela */
+    border-collapse: collapse ;  /* 
+    Alinhamento dos elementos da tabela */
     width: 500px;
 }
 td,th{
-    border : solid black  2px;/* Borda das células*/
-    padding: 10px;/* Espaçamentos internos entre as células*/
+    border : solid black  2px;/* 
+    Borda das células*/
+    padding: 10px;/* 
+    Espaçamentos internos entre as células*/
 }
 thead, tfoot {
-    background-color:darkgrey; /* Cor do fundo da linha de cabeçalho*/
+    background-color:darkgrey; /* 
+    Cor do fundo da linha de cabeçalho*/
     color: #000;
 }
-td.num{
-    text-align: right;
+td.num{ 
+    text-align: right; /*
+    Alinhamento a direita para os números.*/
 }
