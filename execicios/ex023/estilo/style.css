@@ -22,3 +22,10 @@ td.num{
     text-align: right; /*
     Alinhamento a direita para os números.*/
 }
+caption{
+    font-size: 1.5em; /* Tamanho da legenda (Título)*/
+    background-color: darkgrey; 
+    font-weight: bolder;
+    padding: 5px;
+    }
+
