@@ -1,11 +1,20 @@
 @charset "UTF-8";
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-image:url('../imagens/wallpaper002.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #000;
+}
+body >h1{
+    color:#fff ;  /*cor da letra*/
 }
 table {
     border-collapse: collapse ;  /* 
     Alinhamento dos elementos da tabela */
     width: 500px;
+    background-color: #fff;
 }
 td,th{
     border : solid black  2px;/* 
@@ -21,6 +30,10 @@ thead, tfoot {
 td.num{ 
     text-align: right; /*
     Alinhamento a direita para os números.*/
+}
+tr.zem{
+    background-color: darkslategray;
+    color:#fff;
 }
 caption{
     font-size: 1.5em; /* Tamanho da legenda (Título)*/
