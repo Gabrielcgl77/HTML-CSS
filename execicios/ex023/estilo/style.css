@@ -22,6 +22,10 @@ td,th{
     padding: 10px;/* 
     Espaçamentos internos entre as células*/
 }
+tbody >tr:nth-child(2n){
+    background-color: darkslategray;
+    color:#fff;
+}
 thead, tfoot {
     background-color:darkgrey; /* 
     Cor do fundo da linha de cabeçalho*/
@@ -31,10 +35,7 @@ td.num{
     text-align: right; /*
     Alinhamento a direita para os números.*/
 }
-tr.zem{
-    background-color: darkslategray;
-    color:#fff;
-}
+
 caption{
     font-size: 1.5em; /* Tamanho da legenda (Título)*/
     background-color: darkgrey; 
