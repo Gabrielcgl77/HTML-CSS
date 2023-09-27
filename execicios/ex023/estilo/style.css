@@ -9,29 +9,49 @@ body{
 }
 body >h1{
     color:#fff ;  /*cor da letra*/
+    font-style: italic;/*estilo da letra*/
+    font-weight: normal;   //peso da letra
+    
+}
+*{
+    
+    font-style: italic;/*estilo da letra*/
+    font-weight: normal;   /*peso da letra*/
+   
+    
 }
 table {
     border-collapse: collapse ;  /* 
     Alinhamento dos elementos da tabela */
     width: 500px;
     background-color: #fff;
+    position: relative;
+    margin: auto;
+
 }
-td,th{
+ td,th{
     border : solid black  2px;/* 
     Borda das células*/
     padding: 10px;/* 
     Espaçamentos internos entre as células*/
+    
+}
+th.cabeçalho{
+    background-color: #a9a9a9;
+    position: sticky;
+    top: 0;
+    
 }
 tbody >tr:nth-child(2n){
     background-color: darkslategray;
     color:#fff;
 }
 thead, tfoot {
-    background-color:darkgrey; /* 
+    background-color:#a9a9a9; /* 
     Cor do fundo da linha de cabeçalho*/
     color: #000;
 }
-td.num{ 
+ td.num{ 
     text-align: right; /*
     Alinhamento a direita para os números.*/
 }
