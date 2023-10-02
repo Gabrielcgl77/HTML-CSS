@@ -10,8 +10,7 @@ body{
 body >h1{
     color:#fff ;  /*cor da letra*/
     font-style: italic;/*estilo da letra*/
-    font-weight: normal;   //peso da letra
-    
+    font-weight: normal;   /*peso da letra*/   
 }
 *{
     
