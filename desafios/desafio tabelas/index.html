@@ -6,23 +6,44 @@
     <title>tabelas</title>
 <style>
     table{
-        border-radius: 100px;
+       border-collapse: collapse ;  /* 
+    Alinhamento dos elementos da tabela */
+    width: 300px;
+    background-color: #fff;
+    }
+    tr,td{
+        background-color:#ccc;
+        border:solid #000 2px;
+        padding: 10px;
     }
 </style>
 </head>
 <body>
     <table>
-        <td>A</td>
-        <td>B</td>
-        <td>C</td>
+        <tr>
+            <td colspan="3">A</td>
+            <td colspan="3">B</td>
+            
 
-        <td>D</td>
-        <td>E</td>
-        <td>F</td>
+        </tr>
 
-        <td>G</td>
-        <td>H</td>
-        <td>J</td>
+        <tr>
+            <td rowspan="3">D</td>
+            <td>E</td>
+            <td rowspan="2">F</td>
+        </tr>
+
+        <tr>
+            <td>G</td>
+            <td rowspan="3">H</td>
+            <td rowspan="2">I</td>
+        </tr>
+
+        <tr>
+            <td>J</td>
+            <td>M</td>
+            <td rowspan="3">N</td>
+        </tr>
     </table>
 </body>
 </html>
